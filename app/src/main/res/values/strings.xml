@@ -1,0 +1,220 @@
+<resources>
+    <string name="app_name">Student Zone</string>
+
+    <string name="be">B.E (Bachelor of Engineering)</string>
+
+    <string name="usp1">
+        "In collaboration with ATI (advanced training institute), a Govt. of India enterprise, ISL offers certification courses during the semester brake based on technical requirements.\n\n"
+        "The duration of courses vary from one week to fifteen days.\n\n"
+        "Other private institutes also offer variety of certificate courses.\n"
+
+    </string>
+    <string name="usp2">
+        "In this rapidly changing technical world, the student fraternity needs to be updated with latest requirements in the market.\n\n"
+        "At ISL, we believe in equipping our students with latest softwares.\n\n"
+        "A week long software training program is offered every semester for the students.\n"
+
+    </string>
+
+    <string name="usp3">
+        "Five mini projects and two major projects are made mandatory for the students during their four years of engineering course.\n\n"
+        "Apart from mini and major projects, there are ongoing major projects in the departments.\n\n"
+        "Students with good technical skills are invited to contribute in these mega projects.\n"
+
+    </string>
+
+    <string name="usp4">
+        "ISL is a vibrant campus where every day comes with brighten opportunities.\n\n"
+        "Back to Back in house events demand a holistic approach towards fulfilling the skill gap existing in the students.\n\n"
+        "Such events motivate the students to perform at the highest level.\n"
+
+    </string>
+
+    <string name="usp5">
+        "Outbound visits to universities / other colleges is promoted at large scale at ISL Students have visited.\n"
+
+    </string>
+
+    <string name="usp6">
+        "Skills that can't be certified are the soft skills.\n\n"
+        "At ISL we have this USP where out of the 62 corparate skills we focus mainly on the following Soft skills for the holistic development of the students.\n\n"
+        "Communication skills\n"
+        "Leadership skills\n"
+        "Problem solving skills\n"
+        "Decision making skills\n"
+        "Anger management skills\n"
+        "Time management skills\n"
+
+
+    </string>
+
+    <string name="usp7">
+        "A full fledge timetable of semesters and workshops is drafted at beginning of each semester.\n\n"
+        "Applications of various concepts and outside expertise are calculated in these programs.\n\n"
+        "Guest lectures are the common phenomenon here at ISL.\n"
+
+    </string>
+
+    <string name="usp8">
+        "Students are taken to various places to expose them to the real time industrial environment.\n"
+
+    </string>
+
+    <string name="usp9">
+        "We take immense pride in our sports programs.\n\n"
+        "Be it Cricket,Foot Ball,VolleyBall,Basket Ball. ISL has a team to compete at highest level.\n"
+
+    </string>
+
+
+    <string name="cse">Department of CSE &amp; IT </string>
+    <string name="it">Department of Information Technology</string>
+    <string name="ece">Department of Electronics and Communication Engineering</string>
+    <string name="eee">Department of Electrical and Electronics Engineering</string>
+    <string name="ce">Department of Civil Engineering</string>
+    <string name="me">Department of Mechanical and Engineering</string>
+
+    <string name="aboutclg" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula ligula tortor, in pellentesque dui congue ac. Vestibulum lacinia urna magna, quis cursus ante iaculis nec. Nunc ut ligula sit amet odio ultrices euismod vel vel purus. Sed lacus mauris, aliquam et placerat id</string>
+
+
+    <string name="clgaddr">International Airport Road, Chandryangutta, Bandlaguda,Hyderabad. 500005 Telangana, India.</string>
+    <string name="mail">Contact us</string>
+    <string name="cwu">Connect with  us</string>
+    <string name="web">Visit our Website</string>
+    <string name="fb">Like us on Facebook</string>
+    <string name="tt">Like us on Twitter</string>
+    <string name="yt">Watch us on Youtube</string>
+    <string name="ps">Rate us on Play store</string>
+    <string name="sh">Share the App</string>
+    <string name="clg">ISL Engineering College</string>
+
+    <string name="quote">Failure will never overtake me if my determination to succeed is strong enough.</string>
+    <string name="author">~Unknown</string>
+    <string name="dev">Developer</string>
+    <string name="papers">Previous B.E Exam Papers</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_about">AboutActivity</string>
+
+    <string name="cp1">Computer Science is the study of the theory, experimentation, and engineering that form the basis for the design and use of computers. This Department give exposure to its students not only of Curriculum but also to various skills areas required by IT industry.Soft skills training and certification is an ongoing process for students of the department.</string>
+    <string name="cp2">The department has strong link with local IT companies with whom students can do projects training internship and mentor-ship sessions various technical training courses are held to equip students with latest trend.</string>
+
+
+    <string name="ip1">Information technology (IT) is the application of computers to store, study, retrieve, transmit, and manipulate data,or information, often in the context of a business or other enterprise. IT is considered a subset of information and communications technology (ICT).</string>
+    <string name="ip2">It also encompasses other information distribution technologies such as television and telephones. Several industries are associated with information technology, including computer hardware, software, electronics, semiconductors, internet, telecom equipment, and e-commerce.</string>
+
+    <string name="cep1">Civil engineering is a professional engineering discipline that deals with the design, construction, and maintenance of the physical and naturally built environment.</string>
+    <string name="cep2">The major focus of this department is on providing theoretical and hands-on knowledge, so that students acquire the skills and knowledge that is necessary to work in large construction firms as well as to start their own entrepreneur venture.Major focus areas for industry orientation are Land surveying, Computer aided Building Planning and design,Structural design,Soil and Concrete testing.Our Fluid Mechanics lab give a stiff competition to the best in the sector.</string>
+
+    <string name="ecp1">Electronics engineering, or Electronic &amp; Communication Engineering, is an Electrical Engineering discipline which utilizes nonlinear and active electrical components (such as semiconductor devices, especially transistors, diodes and integrated circuits) to design electronic circuits, devices, microprocessors, microcontrollers and other systems.</string>
+    <string name="ecp2">The discipline typically also designs passive electrical components, usually based on printed circuit boards.</string>
+
+    <string name="eep1">Electrical engineering is a field of engineering that generally deals with the study and application of electricity, electronics, and electromagnetism. This field first became an identifiable occupation in the later half of the 19th century after commercialization of the electric telegraph, the telephone, and electric power distribution and use.</string>
+    <string name="eep2">Subsequently, broadcasting and recording media made electronics part of daily life. The invention of the transistor, and later the integrated circuit, brought down the cost of electronics to the point they can be used in almost any household object.</string>
+
+
+    <string name="mep1">This department is forward looking department with vision to produce theoretical sound and industry ready engineers. As a part of industry orientation, we have partnered with various major industries and institutes for specialized modular training and certifications courses. Mechanical engineering is the discipline that applies the principles of Engineering Physics and material science for the design analysis and factoring and maintenance of mechanical system.</string>
+    <string name="mep2">Mechanical Engineer also expected to understand and be able to apply basic concepts from Chemistry, Physics, chemical engineering. Introduction to CAE &amp; CAD is given to the students to understand the working in a commercial establishment and multinational corporations.</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_csedept">CSE Department</string>
+    <string name="title_activity_cedept">CE Department</string>
+    <string name="title_activity_ecedept">ECE Department</string>
+    <string name="title_activity_eeedept">EEE Department</string>
+    <string name="title_activity_medept">ME Department</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="title_activity_contact">Map</string>
+
+</resources>

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            app:cardUseCompatPadding="true"
+            android:id="@+id/csedept"
+            style="@style/CardView.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp">
+
+                    <ImageView
+                        app:srcCompat="@mipmap/ic_isllogo_round"
+                        android:id="@+id/cseimg"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="4dp" />
+
+                    <TextView
+                        android:id="@+id/textViewTitleecse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/cseimg"
+                        android:text="@string/cse"
+                        android:textColor="@color/cardbackground"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+
+                    <TextView
+                        android:id="@+id/textViewShortDescecse"
+                        android:layout_width="wrap_content"
+                        android:text="@string/be"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textViewTitleecse"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@id/cseimg"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/layout2"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout1">
+
+        <android.support.v7.widget.CardView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            app:cardUseCompatPadding="true"
+            android:id="@+id/cedept"
+            style="@style/CardView.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp">
+
+                    <ImageView
+                        app:srcCompat="@mipmap/ic_isllogo_round"
+                        android:id="@+id/ceimg"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="4dp" />
+
+                    <TextView
+                        android:id="@+id/textViewTitlece"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/ceimg"
+                        android:text="@string/ce"
+                        android:textColor="@color/cardbackground"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+
+                    <TextView
+                        android:id="@+id/textViewShortDescce"
+                        android:layout_width="wrap_content"
+                        android:text="@string/ce"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textViewTitlece"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@id/ceimg"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/layout3"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout2">
+
+        <android.support.v7.widget.CardView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            app:cardUseCompatPadding="true"
+            android:id="@+id/ecedept"
+            style="@style/CardView.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp">
+
+                    <ImageView
+                        app:srcCompat="@mipmap/ic_isllogo_round"
+                        android:id="@+id/eceimg"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="4dp" />
+
+                    <TextView
+                        android:id="@+id/textViewTitleece"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/eceimg"
+                        android:text="@string/ece"
+                        android:textColor="@color/cardbackground"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+
+                    <TextView
+                        android:id="@+id/textViewShortDescece"
+                        android:layout_width="wrap_content"
+                        android:text="@string/be"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textViewTitleece"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@id/eceimg"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/layout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout3">
+
+        <android.support.v7.widget.CardView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            app:cardUseCompatPadding="true"
+            android:id="@+id/eeedept"
+            style="@style/CardView.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp">
+
+                    <ImageView
+                        app:srcCompat="@mipmap/ic_isllogo_round"
+                        android:id="@+id/eeeimg"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="4dp" />
+
+                    <TextView
+                        android:id="@+id/textViewTitleeee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/eeeimg"
+                        android:text="@string/eee"
+                        android:textColor="@color/cardbackground"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+
+                    <TextView
+                        android:id="@+id/textViewShortDesceee"
+                        android:layout_width="wrap_content"
+                        android:text="@string/be"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textViewTitleeee"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@id/eeeimg"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/layout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout4">
+
+        <android.support.v7.widget.CardView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            app:cardUseCompatPadding="true"
+            android:id="@+id/medept"
+            style="@style/CardView.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp">
+
+                    <ImageView
+                        app:srcCompat="@mipmap/ic_isllogo_round"
+                        android:id="@+id/mechdept"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:padding="4dp" />
+
+                    <TextView
+                        android:id="@+id/textViewTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/mechdept"
+                        android:text="@string/me"
+                        android:textColor="@color/cardbackground"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+
+                    <TextView
+                        android:id="@+id/textViewShortDesc"
+                        android:layout_width="wrap_content"
+                        android:text="@string/be"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textViewTitle"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@id/mechdept"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

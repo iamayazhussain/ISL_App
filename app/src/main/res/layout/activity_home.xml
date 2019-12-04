@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    tools:context="isl.ayaz.activities.HomeActivity">
+
+
+    <RelativeLayout
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <RelativeLayout
+            android:layout_above="@+id/bottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/whitedark">
+
+                <LinearLayout
+                    android:paddingBottom="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:orientation="vertical">
+
+
+                    <android.support.v7.widget.CardView
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        style="@style/CardView.Light"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:ignore="ContentDescription">
+
+                        <android.support.constraint.ConstraintLayout
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.daimajia.slider.library.SliderLayout
+                                android:id="@+id/slider"
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                app:srcCompat="@color/whitedark"
+                                app:layout_constraintDimensionRatio="H,16:9"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+                        </android.support.constraint.ConstraintLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+
+                    <android.support.v7.widget.CardView
+                        style="@style/CardView.Light"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="260dp"
+                            android:orientation="vertical"
+                            android:background="@drawable/background">
+
+
+                            <LinearLayout
+                                android:id="@+id/layout1"
+                                android:clipToPadding="false"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+
+                                <android.support.v7.widget.CardView
+                                    android:foreground="?android:attr/selectableItemBackground"
+                                    android:clickable="true"
+                                    app:cardCornerRadius="6dp"
+                                    app:cardUseCompatPadding="true"
+                                    android:id="@+id/about"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:layout_margin="10dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+                                        android:gravity="center">
+
+
+                                        <TextView
+                                            android:drawableTop="@mipmap/about"
+                                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                            android:drawablePadding="5dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="10dp"
+                                            android:text="About us"/>
+
+                                    </LinearLayout>
+
+                                </android.support.v7.widget.CardView>
+
+                                <android.support.v7.widget.CardView
+                                    android:foreground="?android:attr/selectableItemBackground"
+                                    android:clickable="true"
+                                    app:cardCornerRadius="6dp"
+                                    app:cardUseCompatPadding="true"
+                                    android:id="@+id/news"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:layout_margin="10dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+                                        android:gravity="center">
+
+
+                                        <TextView
+                                            android:drawableTop="@mipmap/news"
+                                            android:drawablePadding="5dp"
+                                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="10dp"
+                                            android:text="News"/>
+
+                                    </LinearLayout>
+
+                                </android.support.v7.widget.CardView>
+
+                                <android.support.v7.widget.CardView
+                                    android:id="@+id/uevent"
+                                    android:foreground="?android:attr/selectableItemBackground"
+                                    app:cardUseCompatPadding="true"
+                                    app:cardCornerRadius="6dp"
+                                    android:clickable="true"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:layout_margin="10dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+                                        android:gravity="center">
+
+                                        <TextView
+                                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                            android:drawableTop="@mipmap/event"
+                                            android:drawablePadding="5dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="10dp"
+                                            android:text=" Events"/>
+
+                                    </LinearLayout>
+                                </android.support.v7.widget.CardView>
+
+                            </LinearLayout>
+
+
+
+
+                            <LinearLayout
+                                android:clipToPadding="false"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/layout1">
+
+
+                                <android.support.v7.widget.CardView
+                                    android:foreground="?android:attr/selectableItemBackground"
+                                    android:clickable="true"
+                                    app:cardCornerRadius="6dp"
+                                    app:cardUseCompatPadding="true"
+                                    android:id="@+id/usp"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:layout_margin="10dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+                                        android:gravity="center">
+
+
+                                        <TextView
+                                            android:drawableTop="@mipmap/usp"
+                                            android:drawablePadding="5dp"
+                                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="10dp"
+                                            android:text="Our USP"/>
+
+                                    </LinearLayout>
+
+                                </android.support.v7.widget.CardView>
+
+                                <android.support.v7.widget.CardView
+                                    android:foreground="?android:attr/selectableItemBackground"
+                                    android:clickable="true"
+                                    app:cardCornerRadius="6dp"
+                                    app:cardUseCompatPadding="true"
+                                    android:id="@+id/dept"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:layout_margin="10dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+                                        android:gravity="center">
+
+
+                                        <TextView
+                                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                            android:drawableTop="@mipmap/dept"
+                                            android:drawablePadding="5dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="10dp"
+                                            android:text="Departments"/>
+
+                                    </LinearLayout>
+
+                                </android.support.v7.widget.CardView>
+
+                                <android.support.v7.widget.CardView
+                                    android:id="@+id/contact"
+                                    android:foreground="?android:attr/selectableItemBackground"
+                                    app:cardUseCompatPadding="true"
+                                    app:cardCornerRadius="6dp"
+                                    android:clickable="true"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:layout_margin="10dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+                                        android:gravity="center">
+
+                                        <TextView
+                                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                            android:drawableTop="@mipmap/contact"
+                                            android:drawablePadding="5dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="10dp"
+                                            android:text="Contact"/>
+
+                                    </LinearLayout>
+                                </android.support.v7.widget.CardView>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <android.support.v7.widget.CardView
+                            style="@style/CardView.Light"
+                            app:cardUseCompatPadding="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:background="@color/white">
+
+                                <TextView
+                                    android:text="Quote of the Day"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textColor="@color/LiteGrey1" />
+
+                                <android.support.v7.widget.RecyclerView
+                                    android:paddingBottom="10dp"
+                                    android:id="@+id/recylcerViewQuote"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:nestedScrollingEnabled="false"
+                                    app:layoutManager="android.support.v7.widget.LinearLayoutManager"/>
+
+
+
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+
+
+             </LinearLayout>
+
+            </android.support.v4.widget.NestedScrollView>
+
+            <com.github.clans.fab.FloatingActionMenu
+                android:id="@+id/menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                fab:menu_fab_size="normal"
+                fab:menu_showShadow="true"
+                fab:menu_shadowColor="#66000000"
+                fab:menu_shadowRadius="4dp"
+                fab:menu_shadowXOffset="1dp"
+                fab:menu_shadowYOffset="3dp"
+                fab:menu_colorNormal="#FFFF"
+                fab:menu_colorPressed="#FFFF"
+                fab:menu_colorRipple="#c7dbfd "
+                fab:menu_animationDelayPerItem="50"
+                fab:menu_icon="@drawable/ic_add_black_24dp"
+                fab:menu_buttonSpacing="0dp"
+                fab:menu_labels_margin="0dp"
+                fab:menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+                fab:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+                fab:menu_labels_paddingTop="4dp"
+                fab:menu_labels_paddingRight="8dp"
+                fab:menu_labels_paddingBottom="4dp"
+                fab:menu_labels_paddingLeft="8dp"
+                fab:menu_labels_padding="8dp"
+                fab:menu_labels_textColor="#FFFFFF"
+                fab:menu_labels_textSize="14sp"
+                fab:menu_labels_cornerRadius="3dp"
+                fab:menu_labels_colorNormal="#333333"
+                fab:menu_labels_colorPressed="#444444"
+                fab:menu_labels_colorRipple="#66FFFFFF"
+                fab:menu_labels_showShadow="true"
+                fab:menu_labels_singleLine="false"
+                fab:menu_labels_ellipsize="none"
+                fab:menu_labels_maxLines="-1"
+                fab:menu_labels_position="left"
+                fab:menu_openDirection="up"
+                fab:menu_backgroundColor="@android:color/transparent"
+                fab:menu_fab_show_animation="@anim/show_from_bottom"
+                fab:menu_fab_hide_animation="@anim/hide_to_bottom">
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/share"
+                    fab:fab_colorNormal="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_share_black_24dp"
+                    fab:fab_size="mini"
+                    fab:fab_label="@string/sh" />
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/playstore"
+                    fab:fab_colorNormal="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_thumb_up_black_24dp"
+                    fab:fab_size="mini"
+                    fab:fab_label="@string/ps" />
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/website"
+                    fab:fab_colorNormal="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_public_black_24dp"
+                    fab:fab_size="mini"
+                    fab:fab_label="@string/web" />
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/team"
+                    fab:fab_colorNormal="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_developer_mode_black_24dp"
+                    fab:fab_size="mini"
+                    fab:fab_label="Team" />
+
+            </com.github.clans.fab.FloatingActionMenu>
+
+
+
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/bottomBar"
+            android:layout_alignParentBottom="true">
+
+            <include
+
+                layout="@layout/element_bottom_navigation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"/>
+
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

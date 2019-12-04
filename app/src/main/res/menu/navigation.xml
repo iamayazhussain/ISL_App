@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="News Feeds" />
+
+    <item
+        android:id="@+id/navigation_event"
+        android:icon="@drawable/ic_art_track_black_24dp"
+        android:title="Blog" />
+
+    <item
+        android:id="@+id/navigation_snp"
+        android:icon="@drawable/ic_chrome_reader_mode_black_24dp"
+        android:title="SNP" />
+
+    <item
+        android:id="@+id/navigation_exam"
+        android:icon="@drawable/ic_school_black_24dp"
+        android:title="Exam" />
+
+
+</menu>

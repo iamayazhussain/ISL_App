@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <fragment
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ContactActivity"
+        android:layout_weight="50" />
+
+    <ScrollView
+        android:layout_weight="50"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/onec"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:paddingBottom="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp">
+
+
+
+                        <TextView
+                            android:id="@+id/addr1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="Address"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:id="@+id/addr2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/addr1"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/clgaddr"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+                        <TextView
+                            android:id="@+id/addr3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/addr2"
+                            android:layout_marginLeft="13dp"
+                            android:autoLink="phone"
+                            android:drawablePadding="10dp"
+                            android:drawableLeft="@drawable/ic_call"
+                            android:layout_marginTop="5dp"
+                            android:text="04029880083 / 04029880084"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+
+
+                        <TextView
+                            android:id="@+id/addr5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/addr3"
+                            android:drawablePadding="10dp"
+                            android:drawableLeft="@drawable/ic_call"
+                            android:layout_marginLeft="13dp"
+                            android:layout_marginTop="5dp"
+                            android:autoLink="phone"
+                            android:text="Management quota Seats: +919989405490"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+
+                        <TextView
+                            android:id="@+id/addr6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/addr5"
+                            android:layout_marginLeft="13dp"
+                            android:layout_marginTop="20dp"
+                            android:autoLink="email"
+                            android:drawablePadding="10dp"
+                            android:drawableLeft="@drawable/ic_contactemail"
+                            android:text="info@islengg.ac.in"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+                        <TextView
+                            android:id="@+id/addr7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/addr6"
+                            android:layout_marginLeft="13dp"
+                            android:drawablePadding="10dp"
+                            android:drawableLeft="@drawable/ic_contactemail"
+                            android:layout_marginTop="5dp"
+                            android:autoLink="email"
+                            android:text="chairman@islengg.ac.in"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+                        <TextView
+                            android:id="@+id/addr8"
+                            android:autoLink="email"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/addr7"
+                            android:layout_marginLeft="13dp"
+                            android:drawablePadding="10dp"
+                            android:drawableLeft="@drawable/ic_contactemail"
+                            android:layout_marginTop="5dp"
+                            android:text="principal@islengg.ac.in"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+                        <TextView
+                            android:id="@+id/addr9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/addr8"
+                            android:layout_marginLeft="13dp"
+                            android:drawablePadding="10dp"
+                            android:drawableLeft="@drawable/ic_contactemail"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:autoLink="email"
+                            android:text="tpo@islengg.ac.in"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

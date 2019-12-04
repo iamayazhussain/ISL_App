@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.AboutActivity"
+    tools:showIn="@layout/activity_about">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/aa_blog_venue"
+                android:text="Venue"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rating_background"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:layout_alignParentLeft="true"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/ic_place_black_24dp"
+                android:paddingRight="5dp"/>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/layout1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:textColor="#fff"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:text="Post Description 1"
+                android:layout_width="match_parent"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+                android:layout_height="match_parent"
+                android:id="@+id/aa_description1"/>
+
+            <ImageView
+                android:paddingTop="15dp"
+                android:id="@+id/aa_thumbnail2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:textColor="#fff"
+                android:paddingTop="10dp"
+                android:paddingRight="5dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+                android:paddingLeft="5dp"
+                android:text="Post Description 2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/aa_description2"/>
+
+            <TextView
+                android:id="@+id/aa_blog_link1"
+                android:paddingTop="15dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="#ffff"
+                android:text="visit the site at www.google.com from here"
+                android:autoLink="all"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>
